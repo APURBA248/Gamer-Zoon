@@ -141,13 +141,13 @@ nav {
     margin-bottom: 45px;
   }
   .online-games-cards{
+    display: flex;
     gap: 24px;
   }
-  .online-games-cards-p{
-    display: flex;
-    gap: 130px;
-    
+  .online-games-div p{
+    padding-top: 24px;
   }
+  
   .hide{
     display: none;
   }
@@ -206,8 +206,6 @@ text-align: center;
     align-items: center;
     gap: 48px;
   }
-
-  
   /* button Sec End */
 /* Main End */
 /* footer Start */
@@ -286,7 +284,17 @@ font-weight: 500;
     }
   /* Goat Sec End */
   /* Online Games Sec Start */
-  
+  .online-games{
+    margin: 0;
+  }
+  .online-games-cards{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .online-games-info{
+    margin-top: 50px;
+  }
   /* Online Games Sec End */
   /* play games Start */
   .play-game-sec{
