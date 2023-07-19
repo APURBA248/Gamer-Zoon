@@ -115,6 +115,40 @@ nav {
     margin-right: 240px;
   }
 /* Goat Sec End */
+/* Online Games Sec Start */
+  .online-games{
+    margin: 100px 240px;
+  }
+  .online-games-info{
+    text-align: center;
+  }
+  .online-games-t{
+    color: #0B0223;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 16px;
+  }
+  .online-games-t span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .online-games-p{
+    color: #534C64;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 45px;
+  }
+  .online-games-cards{
+    gap: 24px;
+  }
+  .online-games-cards-p{
+    display: flex;
+    gap: 130px;
+    
+  }
+/* Online Games Sec End */
 /* Main End */
 
 /* Media Query For Mobile User */
@@ -151,6 +185,9 @@ nav {
       padding-top: 50px;
     }
   /* Goat Sec End */
+  /* Online Games Sec Start */
+  
+  /* Online Games Sec End */
   /* Main End */ 
 }
 
@@ -189,5 +226,8 @@ nav {
     text-align: center;
   }
   /* Goat Sec End */
+  /* Online Games Sec Start */
+
+  /* Online Games Sec End */
   /* Main End */  
 }
