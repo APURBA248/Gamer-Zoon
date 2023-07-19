@@ -226,6 +226,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 16px;
+  border: 3px solid white;
 }
 .first-batons p {
   color: #0b0223;
@@ -241,6 +242,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 16px;
+  border: 3px solid white;
 }
 .second-batons p {
   color: #0b0223;
@@ -380,18 +382,20 @@ footer ul > li {
   /* button Sec Start */
   .batons-sec {
     margin: 100px 0px 50px 0px;
+    
+    
   }
   .play-game-one {
+    display: flex;
+    flex-direction: column;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
   }
   .first-batons img {
     width: 30px;
   }
   .first-batons p {
     font-size: 0.6rem;
-    gap: 0px;
   }
   .play-game-tow {
     display: grid;
@@ -399,8 +403,7 @@ footer ul > li {
     
   }
   .second-batons {
-    margin-top: 0px;
-
+    margin-top: 20px;
   }
   .second-batons img {
     width: 30px;
@@ -417,7 +420,7 @@ footer ul > li {
   }
   footer ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1px;
     text-align: center;
   }
