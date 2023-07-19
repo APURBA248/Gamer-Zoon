@@ -57,8 +57,72 @@ nav {
 }
 /* Header End */
 
+/* Main Start */
+
+/* Goat Sec Start */
+  .goat-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('./images/Group\ 14.png');
+    background-repeat: no-repeat;
+  }
+  .goat-sec-info{
+    margin-left: 240px;
+  }
+  .goat-title{
+    color: #0B0223;
+    font-weight: 600;
+    font-size:3rem; 
+  }
+  .goat-name{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    font-size: 6rem;
+    margin-bottom: 24px;
+  }
+  .goat-p{
+    color: #534C64;
+    font-weight: 500;
+    font-size: 1.04rem;
+    margin-bottom: 15px;
+  }
+  .goat-btn-one{
+   border-radius: 48px;
+    background:#FF42A5;
+    padding: 20px 40px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.04rem;
+  }
+  .goat-btn-tow{
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 20px 40px ;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.04rem;
+    margin-left: 15px;
+  }
+  .goat-sec button{
+    margin-top: 40px;
+    border: 0px; 
+  }
+  .goat-sec > img{
+    margin-right: 240px;
+  }
+/* Goat Sec End */
+/* Main End */
+
 /* Media Query For Mobile User */
 @media screen and (max-width:576px) {
+  /* Header Start */
+  body{
+    padding: 15px;
+  }
     nav{
       flex-direction: column;
       padding: 0;
@@ -69,11 +133,30 @@ nav {
     .nav-items>ul{
       margin-top: 50px;
       flex-direction: column;
-    }  
+    } 
+  /* Header End */
+  /* Main Start */
+  /* Goat Sec Start */
+    .goat-sec{
+      margin-top: 75px;
+      flex-direction: column-reverse;
+      background-position: bottom;
+      background-size: 500px;
+    }
+    .goat-sec > img ,.goat-sec-info{
+      width: 100%;
+      margin: 0px;
+    }
+    .goat-sec-info{
+      padding-top: 50px;
+    }
+  /* Goat Sec End */
+  /* Main End */ 
 }
 
 /* Media Query For Tablet User */
 @media screen and (min-width:576px) and (max-width:992px){
+  /* Header Start */
   nav{
     flex-direction: column;
     padding: 0;
@@ -84,5 +167,11 @@ nav {
   .nav-items>ul{
     margin-top: 50px;
     gap: 50px;
-  }  
+  }
+  /* Header End */
+  /* Main Start */
+  /* Goat Sec Start */
+
+  /* Goat Sec End */
+  /* Main End */  
 }
