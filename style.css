@@ -6,6 +6,7 @@
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+/* Header Start */
 header {
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -53,4 +54,23 @@ nav {
 .nav-icon i {
   font-size: 1.2rem;
   padding-left: 20px;
+}
+/* Header End */
+
+/* Media Query For Mobile User */
+@media screen and (max-width:576px) {
+    nav{
+      flex-direction: column;
+      padding: 0;
+    }
+    .nav-logo,.nav-icon{
+      margin-top: 50px
+    }
+    .nav-items>ul{
+      margin-top: 50px;
+      flex-direction: column;
+    }
+    .nav-icon{
+
+    }
 }
