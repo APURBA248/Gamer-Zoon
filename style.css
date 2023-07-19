@@ -144,6 +144,35 @@ nav {
     display: flex;
     gap: 24px;
   }
+  .online-games-div{
+    position: relative;
+  }
+  .overly{
+    position: absolute;
+    width: 342px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+     transition:opacity 0.4s ease-in-out;
+    background: #0b0223;
+    border-radius: 16px;
+    border: 5px solid #ff42a5;
+    cursor: pointer;
+  }
+  .watch-now{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+    text-align: center;
+  }
+  .online-games-div:hover .overly{
+    opacity: 0.8;
+  }
   .online-games-div p{
     padding-top: 24px;
   }
