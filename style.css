@@ -148,7 +148,44 @@ nav {
     gap: 130px;
     
   }
+  .hide{
+    display: none;
+  }
 /* Online Games Sec End */
+/* play games Start */
+  .play-game-sec{
+    display: flex;
+    align-items: center;
+    margin: 100px 240px;
+    gap:250px;
+  }
+  .play-game-img{
+    margin-left: -430px;
+    margin-bottom: -520px;
+  }
+  .play-game-info{
+    margin-left: -150px;
+  }
+  
+  .play-game-t{
+    color: #0B0223;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 24px;
+  }
+  .play-game-t span{   
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .play-game-p{
+    color: #534C64;
+    font-weight: 400;
+    font-size: 1.02rem;
+    
+  }
+  /* play games End */
 /* Main End */
 
 /* Media Query For Mobile User */
@@ -183,11 +220,35 @@ nav {
     }
     .goat-sec-info{
       padding-top: 50px;
+      
     }
   /* Goat Sec End */
   /* Online Games Sec Start */
   
   /* Online Games Sec End */
+  /* play games Start */
+  .play-game-sec{
+    flex-direction: column-reverse;
+    margin: 0px;
+  }
+  .play-game-info{
+    text-align: center;
+    margin: 80px 0px;
+  }
+  .play-game-p{
+    margin: 30px 0px;
+  }
+  .play-game-sec>img{
+    width: 300px;
+    margin-top: -50px;
+  }
+  .play-game-img>img{
+    max-width: 100px;
+    margin-left:700px;
+    position: relative;
+    margin-top: -90px;
+  }
+  /* play games End */
   /* Main End */ 
 }
 
@@ -229,5 +290,8 @@ nav {
   /* Online Games Sec Start */
 
   /* Online Games Sec End */
+  /* play games Start */
+
+  /* play games End */
   /* Main End */  
 }
