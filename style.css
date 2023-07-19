@@ -253,7 +253,7 @@ font-weight: 500;
 /* Media Query For Mobile User */
 @media screen and (max-width:576px) {
   /* Header Start */
-  body{
+  main{
     padding: 15px;
   }
     nav{
@@ -318,6 +318,7 @@ font-weight: 500;
   /* footer Start */
   footer {
     width: 100%;
+    margin-top:0px ;
   }
   footer ul {
     display: grid;
@@ -397,5 +398,9 @@ font-weight: 500;
   /* button Sec End */
   /* Main End */
   /* footer Start */
+  footer {
+    width: 100%;
+    margin-top:0px ;
+  }
   /* footer End */  
 }
