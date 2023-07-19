@@ -156,6 +156,9 @@ nav {
 
 /* Media Query For Tablet User */
 @media screen and (min-width:576px) and (max-width:992px){
+  main{
+    padding: 50px;
+  }
   /* Header Start */
   nav{
     flex-direction: column;
@@ -171,7 +174,20 @@ nav {
   /* Header End */
   /* Main Start */
   /* Goat Sec Start */
-
+  .goat-sec{
+    margin-top: 75px;
+    flex-direction: column-reverse;
+    background-position: bottom;
+    background-size: 500px;
+  }
+  .goat-sec > img ,.goat-sec-info{
+    width: 100%;
+    margin: 0px;
+  }
+  .goat-sec-info{
+    padding-top: 50px;
+    text-align: center;
+  }
   /* Goat Sec End */
   /* Main End */  
 }
