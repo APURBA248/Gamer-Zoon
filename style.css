@@ -291,7 +291,27 @@ nav {
 
   /* Online Games Sec End */
   /* play games Start */
-
+  .play-game-sec{
+    flex-direction: column-reverse;
+    margin: 0px;
+  }
+  .play-game-info{
+    text-align: center;
+    margin: 80px 0px;
+  }
+  .play-game-p{
+    margin: 30px 0px;
+  }
+  .play-game-sec>img{
+    width: 300px;
+    margin-top: -50px;
+  }
+  .play-game-img>img{
+    max-width: 100px;
+    margin-left:700px;
+    position: relative;
+    margin-top: -90px;
+  }
   /* play games End */
   /* Main End */  
 }
