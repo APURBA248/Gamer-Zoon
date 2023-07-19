@@ -377,7 +377,18 @@ font-weight: 500;
   }
   /* Goat Sec End */
   /* Online Games Sec Start */
-
+  .online-games{
+    margin: 0;
+  }
+  .online-games-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    text-align: center;
+  }
+  .online-games-info{
+    margin-top: 50px;
+  }
   /* Online Games Sec End */
   /* play games Start */
   .play-game-sec{
