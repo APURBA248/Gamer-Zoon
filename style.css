@@ -175,6 +175,9 @@ nav {
   }
   .online-games-div p{
     padding-top: 24px;
+    color: #534C64;
+    font-weight: 500;
+    font-size: 1.04rem;
   }
 /* Online Games Sec End */
 /* play games Start */
@@ -233,10 +236,19 @@ nav {
     justify-content: space-evenly;
   }
   .second-batons{
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     gap: 16px;
+  }
+   .first-batons:hover{
+    border: 3px solid #ff01c8;
+    border-radius: 50px;
+    
+  }
+   .second-batons:hover{
+    border: 3px solid #ff01c8;
+    border-radius: 50px;
   }
   /* button Sec End */
 /* Main End */
@@ -462,6 +474,9 @@ font-weight: 500;
   }
   /* play games End */
   /* button Sec Start */
+  .batons-sec{
+    margin: 80px 0px 40px 0px;
+  }
   /* button Sec End */
   /* Main End */
   /* footer Start */
