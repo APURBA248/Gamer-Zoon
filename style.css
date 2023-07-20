@@ -270,7 +270,7 @@ footer ul > li {
   color: #fff;
   font-size: 1.8rem;
 }
-.anoter-li li {
+.another-li li {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
 }
@@ -382,13 +382,19 @@ footer ul > li {
   }
   footer ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1px;
     text-align: center;
   }
-  .anoter-li ul {
+  footer ul > li{
+    padding: 20px;
+  }
+  .another-li ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .another-li ul li{
+    padding: 10px;
   }
   /* footer End */
 }
