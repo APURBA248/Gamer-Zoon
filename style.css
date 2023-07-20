@@ -254,6 +254,7 @@ nav {
 .content:hover {
   border: 3px solid rgb(235, 17, 255);
   color: #ff42a5;
+  cursor: pointer;
 }
 /* button Sec End */
 /* Main End */
@@ -331,7 +332,14 @@ footer ul > li {
     margin: 0px;
   }
   .goat-sec-info {
-    padding-top: 50px;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  .goat-sec-info .goat-title{
+    font-size: 2.50rem;
+  }
+  .goat-sec-info .goat-name{
+    font-size: 4.50rem;
   }
   /* Goat Sec End */
   /* Online Games Sec Start */
