@@ -215,55 +215,32 @@ nav {
 /* play games End */
 /* button Sec Start */
 .batons-sec {
-  margin: 200px 240px;
+  width: 1440px;
+  margin: 200px auto 0px;
 }
-.play-game-one {
+.icons {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-}
-.first-batons {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  border: 3px solid white;
-}
-.first-batons p {
-  color: #0b0223;
-  font-weight: 600;
-  font-size: 1.04rem;
-}
-.play-game-tow {
-  display: flex;
-  justify-content: space-evenly;
-}
-.second-batons {
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  border: 3px solid white;
-}
-.second-batons p {
-  color: #0b0223;
-  font-weight: 600;
-  font-size: 1.04rem;
-}
-.first-batons:hover {
-  border: 3px solid #ff01c8;
-  cursor: pointer;
+  justify-content: center;
   border-radius: 50px;
+  background: #fff;
+  flex-basis: 250px;
+  border: 3px solid white;
+  margin: 1%;
 }
-.second-batons:hover {
-  border: 3px solid #ff01c8;
-  cursor: pointer;
-  border-radius: 50px;
+.content img {
+  padding-right: 15px;
 }
-.first-batons p:hover {
-  color: #f701ff;
-}
-.second-batons p:hover {
-  color: #ff01ea;
+.content:hover {
+  border: 3px solid rgb(235, 17, 255);
+  color: #ff42a5;
 }
 /* button Sec End */
 /* Main End */
@@ -306,6 +283,7 @@ footer ul > li {
   font-weight: 500;
 }
 /* footer End */
+
 
 /* Media Query For Mobile User */
 @media screen and (max-width: 576px) {
@@ -381,35 +359,19 @@ footer ul > li {
   /* play games End */
   /* button Sec Start */
   .batons-sec {
-    margin: 100px 0px 50px 0px;
-    
-    
+    width: 100%;
+    margin: 100px auto 0px;
   }
-  .play-game-one {
-    display: flex;
-    flex-direction: column;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  .content {
+    flex-basis: 100px;
+    margin: 15px;
   }
-  .first-batons img {
+  .content img {
     width: 30px;
+    padding-right: 5px;
   }
-  .first-batons p {
-    font-size: 0.6rem;
-  }
-  .play-game-tow {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
-  }
-  .second-batons {
-    margin-top: 20px;
-  }
-  .second-batons img {
-    width: 30px;
-  }
-  .second-batons p {
-    font-size: 0.6rem;
+  .content p {
+    font-size: 0.5rem;
   }
   /* button Sec End */
   /* Main End */
@@ -430,6 +392,8 @@ footer ul > li {
   }
   /* footer End */
 }
+
+
 
 /* Media Query For Tablet User */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -506,7 +470,19 @@ footer ul > li {
   /* play games End */
   /* button Sec Start */
   .batons-sec {
-    margin: 80px 0px 40px 0px;
+    width: 100%;
+    margin: 100px auto 0px;
+  }
+  .content {
+    flex-basis: 100px;
+    margin: 15px;
+  }
+  .content img {
+    width: 30px;
+    padding-right: 5px;
+  }
+  .content p {
+    font-size: 0.8rem;
   }
   /* button Sec End */
   /* Main End */
